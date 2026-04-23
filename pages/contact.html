@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Compliance Consulting Inc. — Reach out to discuss your compliance needs or schedule a consultation.">
+    <title>Contact Us — Compliance Consulting Inc.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                Compliance <span>Consulting</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <span class="section-eyebrow">Reach Out</span>
+            <h1>Contact Us</h1>
+            <p>We'd love to hear about your compliance challenges. Reach out and we'll respond within one business day.</p>
+        </div>
+    </section>
+
+    <!-- ===== ENGAGEMENT NOTICE ===== -->
+    <section class="py-4" style="background-color: var(--off-white); border-bottom: 1px solid var(--light-gray);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 text-center">
+                    <p style="margin: 0; font-size: 0.95rem; color: var(--slate);">
+                        <strong style="color: var(--navy);">All engagements begin with a free 30-minute consultation.</strong>
+                        &nbsp; During this call, we'll learn about your organization, discuss your compliance environment, 
+                        and determine whether and how we can help — with no obligation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="py-5">
+        <div class="container py-3">
+            <div class="row g-5">
+
+                <!-- Contact Info Block -->
+                <div class="col-lg-4">
+                    <div class="contact-info-block">
+                        <h4>Get in Touch</h4>
+
+                        <div class="contact-info-item">
+                            <div class="ci-icon">📧</div>
+                            <div>
+                                <span class="ci-label">Email</span>
+                                <p class="ci-value">
+                                    <a href="mailto:info@complianceconsultinginc.com" 
+                                       style="color: rgba(255,255,255,0.85); text-decoration: none;">
+                                        info@complianceconsultinginc.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="ci-icon">📞</div>
+                            <div>
+                                <span class="ci-label">Phone</span>
+                                <p class="ci-value">
+                                    <a href="tel:+19152194039" style="color: rgba(255,255,255,0.85); text-decoration: none;">
+                                        +1 (915) 219-4039
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="ci-icon">📍</div>
+                            <div>
+                                <span class="ci-label">Office</span>
+                                <p class="ci-value">
+                                    1523 E Yandell Dr, Suite A<br>
+                                    El Paso, TX 79902
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="ci-icon">🕒</div>
+                            <div>
+                                <span class="ci-label">Business Hours</span>
+                                <p class="ci-value">
+                                    Monday – Friday<br>
+                                    9:00 AM – 6:00 PM CT
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr style="border-color: rgba(255,255,255,0.1); margin: 2rem 0;">
+                        <p style="color: rgba(255,255,255,0.55); font-size: 0.82rem;">
+                            All communications are treated with strict confidentiality. 
+                            We do not share client information with any third parties.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <span class="section-eyebrow">Send Us a Message</span>
+                    <h2>Tell Us About Your Needs</h2>
+                    <div class="section-divider"></div>
+                    <p>
+                        Whether you're ready to start an engagement or simply exploring your options, 
+                        fill out the form below and one of our consultants will follow up with you promptly.
+                    </p>
+
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="mt-4">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Jane Smith" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="company" class="form-label">Company / Organization</label>
+                                <input type="text" class="form-control" id="company" name="company"
+                                    placeholder="Your Company Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="jane@yourcompany.com" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone"
+                                    placeholder="+1 (555) 000-0000">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="service" class="form-label">Service of Interest</label>
+                                <select class="form-control" id="service" name="service">
+                                    <option value="">Select a service…</option>
+                                    <option>Management System Audits</option>
+                                    <option>Management System Development (ISO / CTPAT / AEO)</option>
+                                    <option>Compliance Training Programs</option>
+                                    <option>Compliance Process Development</option>
+                                    <option>Not Sure — Need Guidance</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="industry" class="form-label">Industry</label>
+                                <select class="form-control" id="industry" name="industry">
+                                    <option value="">Select your industry…</option>
+                                    <option>Financial Services</option>
+                                    <option>Healthcare</option>
+                                    <option>Manufacturing</option>
+                                    <option>Technology</option>
+                                    <option>Construction</option>
+                                    <option>Education</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="6"
+                                    placeholder="Describe your compliance challenges, questions, or the specific assistance you're looking for…"
+                                    required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input type="hidden" name="_page" value="contact">
+                                <button type="submit" class="btn btn-gold px-5 py-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <p class="mt-4" style="font-size: 0.82rem; color: var(--slate);">
+                        By submitting this form, you agree to our 
+                        <a href="#" style="color: var(--navy);">Privacy Policy</a>. 
+                        We typically respond within one business day.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="py-5 bg-off-white">
+        <div class="container py-3">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Common Questions</span>
+                <h2>Before You Reach Out</h2>
+                <div class="section-divider center"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="faqAccordion">
+
+                        <div class="accordion-item" style="border: 1px solid var(--light-gray); border-radius: 0; margin-bottom: 0.5rem;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+                                    style="font-family: var(--font-body); font-weight: 700; color: var(--navy); background: white; font-size: 0.95rem;">
+                                    How quickly can you start an engagement?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: var(--slate); font-size: 0.93rem;">
+                                    For most engagements, we can begin within 1–2 weeks of signed agreement. 
+                                    Urgent matters — such as pending regulatory examinations or active enforcement actions — 
+                                    can often be prioritized. Contact us to discuss your timeline.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="border: 1px solid var(--light-gray); border-radius: 0; margin-bottom: 0.5rem;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+                                    style="font-family: var(--font-body); font-weight: 700; color: var(--navy); background: white; font-size: 0.95rem;">
+                                    How do you handle confidential information?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: var(--slate); font-size: 0.93rem;">
+                                    All engagements are governed by a mutual non-disclosure agreement (NDA) signed before any 
+                                    information is shared. Our consultants are bound by strict professional confidentiality 
+                                    obligations, and we never share, reference, or discuss client information with any third parties.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="border: 1px solid var(--light-gray); border-radius: 0; margin-bottom: 0.5rem;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3"
+                                    style="font-family: var(--font-body); font-weight: 700; color: var(--navy); background: white; font-size: 0.95rem;">
+                                    Do you work with small businesses or only large enterprises?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: var(--slate); font-size: 0.93rem;">
+                                    We work with organizations of all sizes — from small businesses navigating compliance 
+                                    for the first time to large enterprises managing complex multi-jurisdictional programs. 
+                                    Our engagements are scoped and priced according to your size and needs, not a one-size-fits-all rate card.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="border: 1px solid var(--light-gray); border-radius: 0; margin-bottom: 0.5rem;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4"
+                                    style="font-family: var(--font-body); font-weight: 700; color: var(--navy); background: white; font-size: 0.95rem;">
+                                    What regulatory frameworks do you cover?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: var(--slate); font-size: 0.93rem;">
+                                    Our team covers a wide range of regulatory frameworks including but not limited to: 
+                                    SOX, HIPAA, GDPR, CCPA, BSA/AML, OSHA, FDA regulations, SEC/FINRA requirements, 
+                                    ISO 9001, ISO 45001, ISO 14001, CTPAT, AEO, and state-specific regulatory requirements. 
+                                    Contact us to confirm our coverage of your specific regulatory environment.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-4">
+                    <a class="navbar-brand mb-3 d-block" href="../index.html" style="padding: 0;">
+                        Compliance <span>Consulting</span>
+                    </a>
+                    <p>Helping organizations navigate regulatory complexity with confidence and clarity.</p>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="services/regulatory-compliance-audit.html">Management System Audits</a></li>
+                        <li><a href="services.html">System Development</a></li>
+                        <li><a href="services.html">Training Programs</a></li>
+                        <li><a href="services.html">Compliance Process</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+                    <p>info@complianceconsultinginc.com</p>
+                    <p>+1 (915) 219-4039</p>
+                    <p>1523 E Yandell Dr, Suite A<br>El Paso, TX 79902</p>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 pt-3">
+                <p style="margin: 0;">&copy; 2024 Compliance Consulting Inc. All Rights Reserved.</p>
+                <p style="margin: 0;"><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
